@@ -17,8 +17,9 @@ function serialize (fields) {
 }
 
 const fields = [
-  {name: 'pet.animal.dog.name', value: 'Pablo'},
-  {name: 'pet.bird.parrot.name', value: 'Escabar'},
+  {name: 'pet.animal.dog.name', value: 'Flash'},
+  {name: 'pet.animal.cat.name', value: 'Spy'},
+  {name: 'pet.bird.parrot.name', value: 'Flurry'},
 ];
 
 console.log(JSON.stringify(serialize(fields)));
